@@ -20,6 +20,7 @@ AddDialog::AddDialog(QWidget *parent) :
     connect(ui->pushAdd, SIGNAL(clicked()), this, SLOT(Insert()));
     connect(ui->editFullname ,SIGNAL(textChanged(const QString &)), this, SLOT(Reset(const QString &)));
     connect(ui->editId ,SIGNAL(textChanged(const QString &)), this, SLOT(Reset(const QString &)));
+    printf("LOL!!!")//Nabty T3deel
 
     ui->pushAdd->setEnabled(false);
 }
